@@ -12,3 +12,7 @@ div {
 .row {
     border-color: blue;
 }
+
+.header {
+    color: gray;
+}
