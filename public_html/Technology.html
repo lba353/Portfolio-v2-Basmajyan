@@ -8,7 +8,22 @@
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
         <nav class="navbar navbar-inverse" role="navigation">
             <div class="container-fluid">
-                <div class="navbar-header"
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="navbar navbar-nav">
+                        <li><a href="index.html">About Me</a></li> 
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li class="active" class="dropdown"> 
+                            <a href="Technology.html" class="dropdown-toggle" data-toggle="dropdown">Technology<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="Technology.html#HTML">HTML</a></li>
+                                <li class="divider"></li>
+                                <li><a href="Technology.html#CSS">CSS</a></li>
+                                <li class="divider"></li>
+                                <li><a href="Technology.html#Bootstrap">Bootstrap</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </head>
@@ -29,18 +44,22 @@
                             <img src="http://us.123rf.com/400wm/400/400/carloscastilla/carloscastilla1106/carloscastilla110600065/9867060-technology-concept-with-face-and-binary-code.jpg" class="img-responsive" alt="Responsive image">
                         </div>
                         <div class="col-xs-9">
-                            <h2>HTML (HyperText Markup Language)</h2>
+                            <h2><a name="HTML">HTML (HyperText Markup Language)</a></h2>
                             <p>HTML is a computer programming software that allows <br> 
-                               you to make your own website or online games.</p>
-                            <h2>CSS (Cascading Style Sheet)</h2>
+                               you to make multiple things, such as your own website <br>
+                               or online games. </p>
+                            <img src="Images/HTML5.png" class="img-responsive" alt="Responsive image">
+                            <h2><a name="CSS">CSS (Cascading Style Sheet)</a></h2>
                             <p>CSS is a style software that you can change the <br>
                                background color, the color of the text and more <br>
-                               to make your website just the design you want.</p>
-                            <h2>Bootstrap</h2>
+                               to make your website just the design you want. </p>
+                            <img src="Images/CSS.jpg" class="img-responsive" alt="Responsive image">
+                            <h2><a name="Bootstrap">Bootstrap</a></h2>
                             <p>Bootstrap, which has to be downloaded, is a type of <br>
                                software that gives the programmers a chance to use <br>
-                               many new tools, such as a drop down bar, a carousel,<br>
-                               and an accordion (collapsed).</p>
+                               many new tools, such as a drop down bar, a carousel, <br>
+                               and an accordion (collapsed). </p>
+                            <img src="http://www.emmaazelborn.com/images/bootstrap.png" class="img-responsive" alt="Responsive image">
                         </div>
                     </div>
                 </div>
@@ -54,5 +73,7 @@
                 </div>
             </div>    
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="javascripts/bootstrap.min.js"></script>
     </body>
 </html>

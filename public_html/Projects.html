@@ -8,7 +8,22 @@
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
         <nav class="navbar navbar-inverse" role="navigation">
             <div class="container-fluid">
-                <div class="navbar-header"
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="navbar navbar-nav">
+                        <li><a href="index.html">About Me</a></li> 
+                        <li class="active"> <a href="Projects.html">Projects</a></li>
+                        <li class="dropdown"> 
+                            <a href="Technology.html" class="dropdown-toggle" data-toggle="dropdown">Technology<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="Technology.html#HTML">HTML</a></li>
+                                <li class="divider"></li>
+                                <li><a href="Technology.html#CSS">CSS</a></li>
+                                <li class="divider"></li>
+                                <li><a href="Technology.html#Bootstrap">Bootstrap</a></li>
+                            </ul>
+                        </li>    
+                    </ul>
+                </div>
             </div>
         </nav>
     </head>
@@ -30,14 +45,15 @@
                         </div>
                         <div class="col-xs-9">
                             <h2>Portfolio v1</h2>
-                            <p>This is my first version of my Portfolio project. <br>
-                               This version of the portfolio does not use <br>
-                               Bootstrap and just used HTML and CSS.</p>
+                            <p>This is my first version and a very basic version <br>
+                               of my Portfolio project. This version of the <br>
+                               portfolio does not use Bootstrap and just used HTML and CSS.</p>
                             <img src="Images/Portfolio_Index_Page_(Update).png" class="img-responsive" alt="Responsive image">
                             <h2>Portfolio v2</h2>
-                            <p>This is my second version of my Portfolio project. <br>
-                               This version is a more updated version of the first <br>
-                               one and uses Bootstrap to make it even nicer.</p>
+                            <p>This is my second version and more advanced version <br>
+                               of my Portfolio project. This version is a more <br>
+                               updated version than the first one and uses <br>
+                               Bootstrap to make it nicer an more responsive. </p>
                             <img src="Images/Portfolio v2.png" class="img-responsive" alt="Responsive image">
                         </div>
                     </div>
@@ -52,5 +68,7 @@
                 </div>
             </div>    
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="javascripts/bootstrap.min.js"></script>
     </body>
 </html>
