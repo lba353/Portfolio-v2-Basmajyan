@@ -6,11 +6,23 @@
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+    </head>
         <div class="jumbotron">
             <h1 align="center">Portfolio Website v2</h1>
             <p align="center">My name is Ludvig Basmajyan and this is my second version of my Portfolio Project.</p>
         </div>
-        <nav class="navbar navbar-inverse" role="navigation">
+        <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              About Me
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <nav class="navbar navbar-inverse" role="navigation">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="navbar navbar-nav">
@@ -32,8 +44,6 @@
                 </div>
             </div>
         </nav>
-    </head>
-    <body>
         <div class="container">
             <div class="row">
                 <div class="col-xs-10">
@@ -78,5 +88,178 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-    </body>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+              Projects
+            </a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+            <nav class="navbar navbar-inverse" role="navigation">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="navbar navbar-nav">
+                        <li class="active"><a href="index.html">About Me</a></li> 
+                        <li> <a href="Projects.html">Projects</a></li>
+                        <li class="dropdown"> 
+                            <a href="Technology.html" class="dropdown-toggle" data-toggle="dropdown">Technology<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="Technology.html">Top of Technology Page</a></li>
+                                <li class="divider"></li>
+                                <li><a href="Technology.html#HTML">HTML</a></li>
+                                <li class="divider"></li>
+                                <li><a href="Technology.html#CSS">CSS</a></li>
+                                <li class="divider"></li>
+                                <li><a href="Technology.html#Bootstrap">Bootstrap</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+              <div class="container">
+            <div class="row">
+                <div class="col-xs-10">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <h1 class="header" align="center">02</h1>
+                        </div>
+                        <div class="col-xs-9">
+                            <h1>Projects</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <img src="http://www.santhisoft.com/images/pages/academic-projects-page.jpg" class="img-responsive" alt="Responsive image">
+                        </div>
+                        <div class="col-xs-9">
+                            <h1>Completed Projects</h1>
+                            <p>These are the projects that I have been working on <br>
+                               and completed.</p>
+                            <h2>Portfolio v1</h2>
+                            <p>This is my first version and a very basic version <br>
+                               of my Portfolio project. This version of the <br>
+                               portfolio does not use Bootstrap and just used HTML and CSS.</p>
+                            <img src="Images/Portfolio_Index_Page_(Update).png" class="img-responsive" alt="Responsive image"></a>
+                            <h2>Portfolio v2</h2>
+                            <p>This is my second version and more advanced version <br>
+                               of my Portfolio project. This version is a more <br>
+                               updated version than the first one and uses <br>
+                               Bootstrap to make it nicer an more responsive. </p>
+                            <a href="index.html"><img src="Images/Portfolio v2.png" class="img-responsive" alt="Responsive image"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <h1 align="center">LINKS</h1>
+                    <nav class="list-group">
+                        <a class="list-group-item" href="index.html">About Me</a>
+                        <a class="list-group-item" href="Projects.html">PROJECTS</a>
+                        <a class="list-group-item" href="Technology.html">Technology</a>
+                    </nav>
+                </div>
+            </div>    
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+              Technology
+            </a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+          <div class="panel-body">
+            <nav class="navbar navbar-inverse" role="navigation">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="navbar navbar-nav">
+                        <li class="active"><a href="index.html">About Me</a></li> 
+                        <li> <a href="Projects.html">Projects</a></li>
+                        <li class="dropdown"> 
+                            <a href="Technology.html" class="dropdown-toggle" data-toggle="dropdown">Technology<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="Technology.html">Top of Technology Page</a></li>
+                                <li class="divider"></li>
+                                <li><a href="Technology.html#HTML">HTML</a></li>
+                                <li class="divider"></li>
+                                <li><a href="Technology.html#CSS">CSS</a></li>
+                                <li class="divider"></li>
+                                <li><a href="Technology.html#Bootstrap">Bootstrap</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+              <div class="container">
+            <div class="row">
+                <div class="col-xs-10">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <h1 class="header" align="center">03</h1>
+                        </div>
+                        <div class="col-xs-9">
+                            <h1>Technology</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <img src="http://us.123rf.com/400wm/400/400/carloscastilla/carloscastilla1106/carloscastilla110600065/9867060-technology-concept-with-face-and-binary-code.jpg" class="img-responsive" alt="Responsive image">
+                        </div>
+                        <div class="col-xs-9">
+                            <p>These are the programs I used to create this website.</p>
+                            <h2><a href="http://www.w3schools.com/html/default.asp" name="HTML">HTML (HyperText Markup Language)</a></h2>
+                            <p>HTML is a computer programming software that allows <br> 
+                               you to make multiple things, such as your own website <br>
+                               or online games. </p>
+                            <img src="Images/HTML5.png" class="img-responsive" alt="Responsive image">
+                            <h2><a href="http://www.w3schools.com/css/default.asp" name="CSS">CSS (Cascading Style Sheet)</a></h2>
+                            <p>CSS is a style software that you can change the <br>
+                               background color, the color of the text and more <br>
+                               to make your website just the design you want. </p>
+                            <img src="Images/CSS.jpg" class="img-responsive" alt="Responsive image">
+                            <h2><a href="http://getbootstrap.com" name="Bootstrap">Bootstrap</a></h2>
+                            <p>Bootstrap, which has to be downloaded, is a type of <br>
+                               software that gives the programmers a chance to use <br>
+                               many new tools, such as a drop down bar, a carousel, <br>
+                               and an accordion (collapsed). </p>
+                            <img src="http://www.emmaazelborn.com/images/bootstrap.png" class="img-responsive" alt="Responsive image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <h1 align="center">LINKS</h1>
+                    <nav class="list-group">
+                        <a class="list-group-item" href="index.html">About Me</a>
+                        <a class="list-group-item" href="Projects.html">Projects</a>
+                        <a class="list-group-item" href="Technology.html">TECHNOLOGY</a>
+                    </nav>
+                </div>
+            </div>    
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+          </div>
+        </div>
+      </div>
+</body>
+    </div>
 </html>
